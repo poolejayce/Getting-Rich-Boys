@@ -50,7 +50,7 @@ public class PrimeGenerator {
 	}
 	
 	public static void main(String args[]) {
-		int N =1028;
+		int N = Integer.parseInt(args[0]);
 		PrimeGenerator key = new PrimeGenerator(N);
 		System.out.println(key);
 		
